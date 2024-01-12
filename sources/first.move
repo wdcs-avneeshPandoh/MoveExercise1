@@ -23,7 +23,7 @@ module 0x1::SocialNetwork {
         vector::push_back(&mut friends.people, _person)
     }
 
-
+// test code...
     #[test]
     fun test_create_friend() {
         let richard = Person {
